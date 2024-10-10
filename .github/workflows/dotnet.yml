@@ -32,3 +32,8 @@ jobs:
       with:
         name: Application_Artifact
         path: /home/runner/work/BlazorApp.CicdTest/BlazorApp.CicdTest/release/
+    - name: Commit release to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+       BRANCH: release
+       FOLDER: release

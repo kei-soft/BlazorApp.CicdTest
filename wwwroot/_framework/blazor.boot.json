@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorApp.CicdTest.Client",
   "resources": {
-    "hash": "sha256-JVRtjeXBFAN8+vl5Ly+i9JxV0VHdiNEOpkT+HTYFAaU=",
+    "hash": "sha256-vXpbe0anxEhOE75K1mzWk57OCv3Xi4yDOG0JF34Gbz4=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.4xsnm8lwn6.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "BlazorApp.CicdTest.Client.wasm": "sha256-ClQZbwmeIBdM/bm9p8HFugXDnxrmRtWZ9GkmlzM1Ntc=",
+      "BlazorApp.CicdTest.Client.wasm": "sha256-oBEvM8CcI9A7LUMvwgrgvU47SEx/FqsOWZ5NdoTewso=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-ufV76ABkrpVQm7wUkylkTd3onjAcguTDCanaz+9BXjc=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-BSsNhgPOSpJ0pm4UHDmJlB7uEhZvg7vBUAstlqNSlQs=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-gXtuvedfZ6c0PXO6k4A1NbAsAGmtBouBtaqsLkRjObU=",

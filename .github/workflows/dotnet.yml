@@ -21,10 +21,10 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore BlazorApp.CicdTest.Client/BlazorApp.CicdTest.Client.csproj
     - name: Build
-      run: dotnet build BlazorApp.CicdTest.sln --configuration Release
+      run: dotnet build BlazorApp.CicdTest.Client/BlazorApp.CicdTest.Client.csproj --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test BlazorApp.CicdTest.Client/BlazorApp.CicdTest.Client.csproj --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish BlazorApp.CicdTest/BlazorApp.CicdTest.csproj -c Release -o release — nologo
+      run: dotnet publish BlazorApp.CicdTest.Client/BlazorApp.CicdTest.Client.csproj -c Release -o release

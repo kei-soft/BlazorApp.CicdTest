@@ -37,4 +37,4 @@ jobs:
       with:
        BRANCH: release
        FOLDER: release
-       oken: ${{ secrets.KJUN }}
+       token: ${{ secrets.KJUN }}

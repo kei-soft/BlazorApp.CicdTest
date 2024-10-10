@@ -21,10 +21,10 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore BlazorApp.CicdTest/BlazorApp.CicdTest.csproj
+      run: dotnet restore BlazorApp.CicdTest/BlazorApp.CicdTest/BlazorApp.CicdTest.csproj
     - name: Build
-      run: dotnet build BlazorApp.CicdTest/BlazorApp.CicdTest.csproj --no-restore
+      run: dotnet build BlazorApp.CicdTest/BlazorApp.CicdTest/BlazorApp.CicdTest.csproj --no-restore
     - name: Test
-      run: dotnet test BlazorApp.CicdTest/BlazorApp.CicdTest.csproj --no-build --verbosity normal
+      run: dotnet test BlazorApp.CicdTest/BlazorApp.CicdTest/BlazorApp.CicdTest.csproj --no-build --verbosity normal
     - name: Publish
-      run: dotnet publish BlazorApp.CicdTest/BlazorApp.CicdTest.csproj -c Release -o release
+      run: dotnet publish BlazorApp.CicdTest/BlazorApp.CicdTest/BlazorApp.CicdTest.csproj -c Release -o release
